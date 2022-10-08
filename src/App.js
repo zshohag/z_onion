@@ -1,14 +1,15 @@
-import './App.css';
-import Nav from './Screens/Shared/Nav';
+//import './App.css';
+import './styles/index.css'
+import Foods from './Foods Area/Foods';
+import Nav from './screens/Shared/Nav';
 
 
 function App() {
   return (
-    <div className="App">
-      
+    <>
        <Nav/>
-
-    </div>
+       <Foods/>
+    </>
   );
 }
 

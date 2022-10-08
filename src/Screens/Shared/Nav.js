@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import logo from '../../Assets/logo2.png'
-import person from '../../Assets/icons/Group 2.png'
+import logo from '../../assets/logo2.png'
+import person from '../../assets/icons/Group 2.png'
 import { BsCart2 } from 'react-icons/bs';
-import { BsFillPersonFill } from 'react-icons/bs';
 import { FiLogOut } from 'react-icons/fi';
 
 const Nav = () => {
@@ -14,11 +13,11 @@ const Nav = () => {
         <div >
             <nav className="flex items-center max-w-screen-xl mx-auto px-4 py-3" >
                 <div className="flex flex-grow   "  >
-                    <img className="w-36 md:w-25  
+                    <img className="w-36   
                       cursor-pointer  " src={logo}  alt="" />
                 </div>
                 
-
+               
                 {
                     user ? 
         
